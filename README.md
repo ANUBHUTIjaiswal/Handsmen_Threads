@@ -1,18 +1,47 @@
-# Salesforce DX Project: Next Steps
+# Hansman Threads – Salesforce CRM Project
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Elevating the art of sophistication in men's fashion through a personalized Salesforce CRM experience.
 
-## How Do You Plan to Deploy Your Changes?
+## 📌 Project Overview
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Hansman Threads is a custom Salesforce application designed to streamline bespoke men's tailoring, enhance customer experience through personalized styling, and optimize order and customer lifecycle management.
 
-## Configure Your Salesforce DX Project
+This project leverages core Salesforce features such as:
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+- Custom Objects
+- Record-Triggered Flows & Scheduled Flows
+- Apex Triggers
+- Email Alerts
+- Role-based Assignment Logic
+- Dynamic Screen Components
 
-## Read All About It
+---
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## 🧱 Key Features
+
+- 🧵 Tailor-made customer journey tracking
+- 📨 Automated email notifications
+- 🔁 Dynamic user role assignment using Apex
+- 📅 Flow-based scheduling for operational tasks
+- 🎛️ Custom UI components built with LWC
+
+---
+
+## 🗃️ Project Structure
+
+```plaintext
+.
+├── force-app
+│   └── main
+│       └── default
+│           ├── classes/
+│           ├── triggers/
+│           ├── lwc/
+│           ├── objects/
+│           └── layouts/
+├── manifest/
+│   └── package.xml
+├── screenshots/
+│   ├── homepage.png
+│   └── flow-diagram.png
+└── README.md
